@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEB4A821B57B805006A49A5 /* RNCardio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADEB4A811B57B805006A49A5 /* RNCardio.h */; };
+		ADEB4A841B57B805006A49A5 /* RNCardio.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEB4A831B57B805006A49A5 /* RNCardio.m */; };
+		ADEB4A8A1B57B805006A49A5 /* libRNCardio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEB4A7E1B57B805006A49A5 /* libRNCardio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEB4A8B1B57B805006A49A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEB4A761B57B804006A49A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEB4A7D1B57B804006A49A5;
+			remoteInfo = RNCardio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADEB4A7C1B57B804006A49A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ADEB4A821B57B805006A49A5 /* RNCardio.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ADEB4A7E1B57B805006A49A5 /* libRNCardio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCardio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB4A811B57B805006A49A5 /* RNCardio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCardio.h; sourceTree = "<group>"; };
+		ADEB4A831B57B805006A49A5 /* RNCardio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCardio.m; sourceTree = "<group>"; };
+		ADEB4A891B57B805006A49A5 /* RNCardioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCardioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB4A8F1B57B805006A49A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEB4A7B1B57B804006A49A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB4A861B57B805006A49A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB4A8A1B57B805006A49A5 /* libRNCardio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEB4A751B57B804006A49A5 = {
+			isa = PBXGroup;
+			children = (
+				ADEB4A801B57B805006A49A5 /* RNCardio */,
+				ADEB4A8D1B57B805006A49A5 /* RNCardioTests */,
+				ADEB4A7F1B57B805006A49A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEB4A7F1B57B805006A49A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB4A7E1B57B805006A49A5 /* libRNCardio.a */,
+				ADEB4A891B57B805006A49A5 /* RNCardioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEB4A801B57B805006A49A5 /* RNCardio */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB4A811B57B805006A49A5 /* RNCardio.h */,
+				ADEB4A831B57B805006A49A5 /* RNCardio.m */,
+			);
+			path = RNCardio;
+			sourceTree = "<group>";
+		};
+		ADEB4A8D1B57B805006A49A5 /* RNCardioTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB4A8E1B57B805006A49A5 /* Supporting Files */,
+			);
+			path = RNCardioTests;
+			sourceTree = "<group>";
+		};
+		ADEB4A8E1B57B805006A49A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB4A8F1B57B805006A49A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEB4A7D1B57B804006A49A5 /* RNCardio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB4A921B57B805006A49A5 /* Build configuration list for PBXNativeTarget "RNCardio" */;
+			buildPhases = (
+				ADEB4A7A1B57B804006A49A5 /* Sources */,
+				ADEB4A7B1B57B804006A49A5 /* Frameworks */,
+				ADEB4A7C1B57B804006A49A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCardio;
+			productName = RNCardio;
+			productReference = ADEB4A7E1B57B805006A49A5 /* libRNCardio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADEB4A881B57B805006A49A5 /* RNCardioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB4A951B57B805006A49A5 /* Build configuration list for PBXNativeTarget "RNCardioTests" */;
+			buildPhases = (
+				ADEB4A851B57B805006A49A5 /* Sources */,
+				ADEB4A861B57B805006A49A5 /* Frameworks */,
+				ADEB4A871B57B805006A49A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB4A8C1B57B805006A49A5 /* PBXTargetDependency */,
+			);
+			name = RNCardioTests;
+			productName = RNCardioTests;
+			productReference = ADEB4A891B57B805006A49A5 /* RNCardioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEB4A761B57B804006A49A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michał Grabowski";
+				TargetAttributes = {
+					ADEB4A7D1B57B804006A49A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ADEB4A881B57B805006A49A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = ADEB4A791B57B804006A49A5 /* Build configuration list for PBXProject "RNCardio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADEB4A751B57B804006A49A5;
+			productRefGroup = ADEB4A7F1B57B805006A49A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEB4A7D1B57B804006A49A5 /* RNCardio */,
+				ADEB4A881B57B805006A49A5 /* RNCardioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEB4A871B57B805006A49A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEB4A7A1B57B804006A49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB4A841B57B805006A49A5 /* RNCardio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB4A851B57B805006A49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEB4A8C1B57B805006A49A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEB4A7D1B57B804006A49A5 /* RNCardio */;
+			targetProxy = ADEB4A8B1B57B805006A49A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADEB4A901B57B805006A49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADEB4A911B57B805006A49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEB4A931B57B805006A49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADEB4A941B57B805006A49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADEB4A961B57B805006A49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNCardioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADEB4A971B57B805006A49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNCardioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEB4A791B57B804006A49A5 /* Build configuration list for PBXProject "RNCardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB4A901B57B805006A49A5 /* Debug */,
+				ADEB4A911B57B805006A49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEB4A921B57B805006A49A5 /* Build configuration list for PBXNativeTarget "RNCardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB4A931B57B805006A49A5 /* Debug */,
+				ADEB4A941B57B805006A49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEB4A951B57B805006A49A5 /* Build configuration list for PBXNativeTarget "RNCardioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB4A961B57B805006A49A5 /* Debug */,
+				ADEB4A971B57B805006A49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEB4A761B57B804006A49A5 /* Project object */;
+}
