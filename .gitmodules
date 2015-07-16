@@ -1,0 +1,3 @@
+[submodule "RNCardio/lib/CardIO"]
+	path = RNCardio/lib/CardIO
+	url = git://github.com/card-io/card.io-iOS-SDK
